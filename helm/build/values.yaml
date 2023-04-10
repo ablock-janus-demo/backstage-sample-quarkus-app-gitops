@@ -1,0 +1,15 @@
+app:
+  name: my-quarkus-app
+  namespace: my-quarkus-app-dev
+  cluster: .apps.cluster-c4wfp.c4wfp.sandbox1131.opentlc.com
+
+git:
+  branch: main
+  repo: https://github.com/ablock-janus-demo/backstage-sample-quarkus-app
+  org: ablock-janus-demo
+  name: backstage-sample-quarkus-app
+
+image:
+  host: image-registry.openshift-image-registry.svc:5000
+  name: my-quarkus-app-dev/my-quarkus-app
+  tag: latest
